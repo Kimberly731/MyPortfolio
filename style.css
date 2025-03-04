@@ -1,0 +1,150 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* About Me Section */
+#about {
+    margin: 40px 0;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Projects Section */
+#projects {
+    margin: 40px 0;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8em;
+    color: #007BFF;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 1.1em;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+#skills {
+    margin: 40px 0;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills li {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    margin: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    font-size: 1.2em;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    font-size: 1em;
+    color: #777;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
